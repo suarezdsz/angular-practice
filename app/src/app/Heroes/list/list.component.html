@@ -1,0 +1,18 @@
+<p>List Hero</p>
+
+<ul>
+
+    <li *ngFor="let heroe of heroes">
+        {{heroe}}
+    </li>
+</ul>
+
+<button (click)="deleteItem()"> Delete</button>
+
+<h1>Hero Deleted</h1>
+
+<ul>
+    <li *ngFor="let item of hero_delete">
+        {{item}}
+    </li>
+</ul>
